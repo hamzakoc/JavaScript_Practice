@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>From Page</title>
+    <meta name="description" content="Form page">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+       td,th,table{
+          border: 1px solid gray;
+          border-collapse: collapse;
+          margin: 10px;
+          padding: 10px;
+       }
+    </style>
+
+
+
+</head>
+<body>
+  
+  <form >
+     <input type="text" id="custId" name="custId" value="1234" hidden>
+      <table>
+
+         <tr>
+            <th>
+               <label for="fname">First Name</label>
+            </th>
+            <td colspan="3">
+               <input type="text"  id="fname" name="fname" size="50">
+            </td>
+         </tr>
+
+         <tr>
+            <th>
+               <label for="lname">Last Name</label>
+            </th>
+            <td colspan="3">
+               <input type="text"  id="lname" name="lname" size="50">
+            </td>
+         </tr>
+
+         <tr>
+            <th>
+               <label for="password">Password</label>
+            </th>
+            <td colspan="3">
+               <input type="password"  id="password" name="password" size="50">
+            </td>
+         </tr>
+
+        <tr>
+
+            <th>
+               <label for="city">City</label>
+            </th>
+            <td>
+               <input type="text" id="city" name="city" size="15">
+            </td>
+            <th>
+               <label for="province">Province</label>
+            </th>
+            <td>
+               <input type="text" id="province" name="province" size="14"> 
+            </td>
+
+        </tr>
+
+
+         <tr>
+            <th>
+               <label for="country">Country</label>
+            </th>
+
+            <td colspan="3">
+               <select name="country" id="country">
+
+                  <option value="1">US</option>
+                  <option value="1">Canada</option>
+                  <option value="1">Mexico</option>
+                  <option value="1">Brazil</option>
+               </select>
+
+            </td>
+         </tr>
+
+         <tr>
+            <th>
+               <label for="phoneNumber" >Phone( Country code, area code, number</label>
+            </th>
+
+            <td colspan="3" >
+                  (+ <input type="tel" name="countrycode" id="phoneNumber" size="3"> )
+                  <input type="tel" name="areacode" id="areaCode" size="3">
+                  <input type="tel" name="number" id="number" size="3">
+            </td>
+
+         </tr>
+            
+
+         <tr>
+            <th>
+               <label for="email">Email</label>
+            </th>
+            <td colspan="3">
+               <input type="email" name="email" id="email">
+            </td>
+         </tr>
+
+
+         <tr>
+            <th>
+               <label for="birthday">Birthday</label>
+            </th>
+            <td colspan="3">
+               <input type="date" name="birthday" id="birthday">
+            </td>
+         </tr>
+        
+         <tr>
+            <th>
+               <label for="gender">Gender</label>
+            </th>
+            <td colspan="3">
+               <input type="radio" id="gender" name="gender" value="male">Male <br>
+               <input type="radio" id="gender1" name="gender" value="female">Female <br>
+               <input type="radio" id="gender2" name="gender" value="other">Other <br>
+            </td>
+         </tr>
+
+         <tr>
+            <th>
+               <label for="gender">Payment</label>
+            </th>
+            <td colspan="3">
+               <input type="checkbox"  name="payment1" value="credit" checked>Credit <br>
+               <input type="checkbox"  name="payment2" value="debit">Debit <br>
+               <input type="checkbox"  name="payment3" value="cash">Cash <br>
+            </td>
+         </tr>
+
+         <tr>
+            <th>
+               <label for="color">Select color</label>
+            </td>
+            <td>
+               <input type="color" name="color" id="color">
+            </td>
+            <th>
+               <label for="myfile">Select a file</label>
+            </td>
+            <td>
+               <input type="file" name="myfile" id="myfile" accept=".doc, .docx, application/msword">
+            </td>
+         </tr>
+
+         <tr>
+            <th>
+               <label for="volume">Audio setting</label>
+            </td>
+            <td colspan="3">
+               <input type="range" name="volume" id="volume" min="0" max="100" step="10">
+            </td>
+            
+         </tr>
+
+         <tr>
+            <th>
+               <label for="comments">Comment and Questions</label>
+            </th>
+            <td colspan="3">
+               <textarea name="comments" id="comments" cols="70" rows="10">Please enter your comments here</textarea>
+            </td>
+         </tr>
+
+         <tr>
+            <td colspan="2">
+               <input type="image" src="images/submit.png" alt="submit"   id="submit" >
+            </td>
+            <td colspan="2">
+               <button type="reset"><img src="images/reset.png"  alt="reset"></button>
+            </td>
+         </tr>
+
+
+      </table>
+
+  </form>
+
+
+
+
+ <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

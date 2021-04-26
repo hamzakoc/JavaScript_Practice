@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <meta name="description" content=" CSS Flex display">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="">
+   
+   
+
+<style>
+
+html, body{
+        height: 100%;
+        width: 100%;
+}
+
+
+*{
+    padding: 0;
+     margin: 0;
+   
+}
+
+.container{
+
+    max-width: 1000px;
+    height: 150px;
+    border: 2px solid brown;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+
+    
+
+}
+
+
+.box{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(58, 175, 175);
+    font-size: 2em;
+    text-align: center;
+    line-height: 100px; 
+    /* to center horizantal */
+
+
+}
+
+
+#box2{
+    flex-basis: 30%;   /*  arrange widht itself*/
+  
+    order: 1;
+}
+
+
+/* #box3{
+    order: 2;
+} */
+
+
+main{
+    display: flex;
+    height: 300px;
+    max-width: 1000px;
+    background-color: khaki;
+    margin: 40px auto;
+}
+
+main  h2 {
+    
+    color: rgb(41, 41, 88);
+    font-size: 2em;
+    margin: auto;
+
+    }
+
+</style>
+
+</head>
+<body>
+ 
+    <div class="container" >
+
+        <div class="box" id="box1" >1</div>
+
+        <div class="box" id="box2" >2</div>
+
+        <div class="box" id="box3" >3</div>
+
+        <div class="box" id="box4" >4</div>
+
+        <div class="box" id="box5" >5</div>
+
+    </div>
+<main>
+    <h2>Center</h2>
+    
+</main>
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

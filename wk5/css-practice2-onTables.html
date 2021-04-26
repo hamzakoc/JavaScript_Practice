@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <meta name="description" content="Working with tables in HTML5">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/png" >
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<style>
+
+div table,td,th {
+    border: 2px groove brown;
+    background-color: darksalmon;
+}
+
+
+</style>
+
+</head>
+<body>
+  
+    <h1>Week 4 Lab exercise</h1>
+    <h2>Today we will practice creating following:</h2>
+
+    <ul id="nav">
+        <li class="linav"><a href="#favicon">Favicon </a></li>
+        <li class="linav"><a href="#table">Table</a></li>
+        <li class="linav"><a href="#thumbnails">Thumbnails / Image link</a> </li>
+        <li class="linav"><a href="#bookmark">Bookmark Link</a> </li>
+    </ul>
+    <ul>
+        <li id="favicon">Favicon</li>
+        <a href="https://github.com/hamzakoc" target="hamza" ><i class="fab fa-github fa-3x" ></i></a>
+        <a href="https://ca.linkedin.com/in/aaron-hamza-koc-04a93117b" target="hamza"><i class="fab fa-linkedin fa-3x" ></i></a>
+       
+        <br/>
+        <br/><br/>
+       
+        <li id="table">Table</li>
+        <ul>
+            <li>Colspan</li>
+            <li>Rowspan</li>
+
+        </ul>
+        <div>
+        <table class="border" >
+
+       
+            <tr  >
+                <th colspan="2">Birthdays</th>
+            </tr>
+            <tr>
+                <td>Jan 29</td>
+                <td>Sam</td>
+            </tr>
+            <tr>
+                <td>Jan 11</td>
+                <td>Kaan</td>
+            </tr>
+            <tr>
+                <td>Jan 2</td>
+                <td>Hans</td>
+            </tr>
+
+
+
+            </table>
+
+            <br>
+            <br>
+
+            <table >
+
+       
+                <tr >
+                    <th colspan="2">Birthdays</th>
+                </tr>
+                <tr>
+                    <td>Jan 29</td>
+                    <td>Sam</td>
+                </tr>
+                <tr>
+                    <td>Jan 11</td>
+                    <td>Kaan</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Jan 2</td>
+                    <td>Hans</td>
+                </tr>
+                <tr>
+                    
+                    <td>Rick</td>
+                </tr>
+                <tr>
+                    
+                    <td>Fivr</td>
+                </tr>
+                <tr>
+                   
+                    <td>Justiy</td>
+                </tr>
+    
+        
+            </table>
+            <br>
+            <br>
+            <br>
+
+        </div>
+          
+        <li  id="thumbnails">Thumbnails / Image link</li>
+        <table >
+            <tr>
+                <td><a href="images/1.jpg" target="image"><img src="images/lonely-1.jpg"  alt="land image"></a></td>
+                <td><a href="images/2.jpg" target="image"><img src="images/lonely-2.jpg" alt="konsert image"></a></td>
+               
+            </tr>
+            <tr>
+                <td><a href="images/3.jpg" target="image"><img src="images/lonely-3.jpg" alt="walking image"></a></td>
+                <td><a href="images/4.jpg" target="image"><img src="images/lonely-4.jpg" alt="land image"></a></td>
+                
+
+            </tr>
+
+        </table>
+
+        <br>
+        <br>
+
+        <li id="bookmark">Bookmark Link</li>
+        <li>email link</li>
+
+    </ul>
+
+
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

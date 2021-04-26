@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intro to CSS</title>
+    <meta name="description" content="Learning CSS ">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        h1{
+            text-shadow: darkgrey 3px 2px;
+            text-align: center;
+        }
+        h2{
+            background: black;
+            color:blanchedalmond;
+            text-align: center;
+            padding: 20px;
+           
+        }
+
+        li{
+            margin: 10px;
+            padding: 20px 0;
+            border: 3px solid green;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgb(102, 224, 86) 5px 5px 5px;
+            
+        }
+
+        #intid1{
+
+            background-color: cadetblue;
+        }
+
+
+        #intid2{
+            background-color:burlywood;
+        }
+
+        .intclass{
+
+            background:coral
+        }
+
+        .divclass{
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            padding: 20px 0px 0px 20px;
+            width: 400px;
+             height: 200px;
+            background-color: #3498db;
+            font-size: 45px;
+           
+        }
+
+
+    </style>
+
+</head>
+<body>
+  
+    <h1>Learning CSS is fun</h1>
+    <h2>Applying CSS to HTML document</h2>
+    <ol>
+        <li  style="color:red; font-style:italic; ">Inline-try to avoid at all cost</li>
+        
+        <li id="intid1">Internal-ID</li>
+        <li class="intclass">Internal-Class</li>
+        <li id="externalid">External-ID</li>
+        <li class="externalclass">External-Class</li>
+
+    
+    </ol>
+
+
+    <h2>CSS selector</h2>
+    <ul>
+        <li>Generic/type selector</li>
+        <li id="intid2">ID selector</li>
+        <li class="intclass">Class selectors</li>
+       
+    </ul>
+
+    <div class="divclass">Div 1</div>
+    <div  class="divclass">Div 2</div>
+    <p>First Paragraph</p>
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

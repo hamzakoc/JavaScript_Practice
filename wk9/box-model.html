@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box-model</title>
+    <meta name="description" content="CSS Bo Model">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+<style>
+
+html, body{
+        height: 100%;
+        width: 100%;
+    }
+    
+.box{
+    background-color: rgb(12, 162, 182);
+   box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+}
+
+#box1{
+    border: 12px solid black;
+    padding: 10px;
+}
+
+#box2{
+    border: 2px solid brown;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+}
+
+main{
+    width: 90%;
+    height: 50%;
+    border: green solid 2px;
+    margin: auto;
+    position: relative;
+}
+
+</style>
+
+</head>
+<body>
+  
+    <h1>Absolute positioning</h1>
+    <h2>Box-model</h2>
+    <main>
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+    </main>
+
+
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

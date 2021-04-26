@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS selectors</title>
+    <meta name="description" content="Some useful CSS selectors ">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+
+     <style>
+       p{
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#para2{
+    color: brown;
+}
+
+.para_class{
+    color: rgb(218, 18, 18);
+    font-size: 1.2em;
+}
+
+.other_para_class2{
+    font-weight: bold;
+}
+
+div > p{
+
+  Color: rgb(159, 185, 11);
+
+}
+
+
+div p:nth-child(odd){
+
+    background-color: rgb(135, 212, 222);
+
+}
+
+div + p{ /* p after div*/
+color: crimson;
+font-size: 2em;
+}
+
+div ~ p{ /* p after div*/
+    color: rgb(20, 23, 220);
+    font-size: 2em;
+    }
+
+#myMainDiv{
+    width: 200px;
+    
+    border: 2px solid gray;
+
+}
+
+#myMainDiv section{
+    width: 200px;
+    
+    border: 2px solid rgb(153, 31, 31);
+}
+     </style>
+
+   
+</head>
+<body>
+  <h1>Practice using some of the CSS selectors</h1>
+  <div id="myMainDiv">
+
+    <p id="para1">Para 1</p>
+    <p id="para2" class="para_class other_para_class2">Para 2</p>
+    <p id="para3">Para 3</p>
+    <p id="para4">Para 4</p>
+    <p id="para5" class="para_class">Para 5</p>
+    <p id="para6">Para 6</p>
+    <section>
+      <p>Para inside section</p>
+    </section>
+
+  </div>
+  <p>First para after my div</p>
+  <span>Some text in </span>
+  <p>Second para after my div</p>
+  <p>Third para after my div</p>
+   
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

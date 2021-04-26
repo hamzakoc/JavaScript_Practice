@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <meta name="description" content=" CSS Flex display">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="">
+   
+   
+
+<style>
+
+html, body{
+        height: 100%;
+        width: 100%;
+}
+
+
+*{
+    padding: 0;
+     margin: 0;
+   
+}
+
+.container{
+    display: flex;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 40px;
+   border: 2px solid gray;
+   height: 300px;
+   justify-content: space-between;
+
+}
+
+.container aside{
+    flex-basis: 20%;
+    background-color: lemonchiffon;
+
+}
+
+
+.container main{
+    flex-basis:78% ;
+    background-color: rgb(133, 173, 165);
+    order: -1;
+
+}
+
+</style>
+
+</head>
+<body>
+ 
+    <div class="container" >
+        <aside>
+            <h2>Aside</h2>
+        </aside>
+        <main>
+            <h2>Main Content Area</h2>
+        </main>
+
+    </div>
+
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

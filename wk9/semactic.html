@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic</title>
+    <meta name="description" content="CSS Semantic">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="">
+   
+   
+
+<style>
+
+html, body{
+        height: 100%;
+        width: 100%;
+}
+
+
+*{
+    padding: 0;
+     margin: 0;
+   
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+
+main{
+    width: 90%;
+    height: 60%;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    margin: auto;
+}
+
+main > aside {
+    width: 20%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(11, 90, 82);
+    color: wheat;
+    float: left;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+#mainSection{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 80%;
+    float: right;
+    box-sizing: border-box;
+    padding: 1em;
+    position: relative;
+}
+
+
+#box1{
+    background-color: yellow;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+}
+
+#box2{
+    background-color: violet;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 20%;
+
+}
+}
+
+</style>
+
+</head>
+<body>
+ 
+    <header>
+        <h1>Welcome to ABCDE website</h1>
+    </header>
+
+    <main>
+        <aside>
+            aside
+
+        </aside>
+
+        <section id="mainSection">
+            <h2>Main content area</h2>
+            
+            <h1 id="box1">Box 1</h1>
+        
+
+        
+            <h1 id="box2">Box 2</h1>
+
+
+        </section> 
+
+        
+       
+
+    </main>
+
+
+    <footer>
+        <p>&copy;COMP1223 2020</p>
+    </footer>
+
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+
+</body>
+</html>

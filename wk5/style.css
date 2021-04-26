@@ -1,0 +1,60 @@
+
+
+*{
+    background-color: bisque;
+    
+    
+}
+  
+
+#externalid{
+    background-color: blueviolet;
+    animation-name: example;
+    animation-duration: 8s;
+}
+
+.externalclass{
+    background-color: cyan;
+
+}  
+
+@keyframes example {
+    from {background-color: rgb(238, 230, 115);}
+    to {background-color: rgb(36, 213, 219);}
+  }
+
+
+  #nav{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+  }
+.linav{
+    float: left;
+     
+
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+  }
+
+#thumbnails{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+}
+#table
+{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+}
